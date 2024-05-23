@@ -8,10 +8,10 @@ Create development environment that is cloud-based:
    
 ### Github Codespaces
 Build out python project scaffold:
-   *Makefile
-   *requirements.txt
-   *test_library.py
-   *python_library
+   * [Makefile](https://github.com/asiamahy2g/py-devops/blob/main/Makefile)
+   * [requirements.txt] ( https://github.com/asiamahy2g/py-devops/blob/main/requirements.txt)
+   * [test_library.py] (https://github.com/asiamahy2g/py-devops/blob/main/test_devopslib.py)
+   * [python_library] (https://github.com/asiamahy2g/py-devops/tree/main/devopslib)
    *Dockerfile
    *command-line tool
    *Microservice
