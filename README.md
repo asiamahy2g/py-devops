@@ -23,7 +23,7 @@ Build out python project scaffold:
 
 
 
-### AWS ClousHell,
+### AWS Cloudshell,
 ### AWS CLoud9
 
 
