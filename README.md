@@ -1,7 +1,7 @@
 [![Test Multiple Python Versions](https://github.com/asiamahy2g/py-devops/actions/workflows/main.yml/badge.svg)](https://github.com/asiamahy2g/py-devops/actions/workflows/main.yml)
 
 # py-devops<img width="1226" alt="devops_concept1" src="https://github.com/asiamahy2g/py-devops/assets/99301863/5853185e-737b-41e1-9e8d-9a1d56b51861">
-## Create a project scafoold
+## Create a project scaffold
 Create development environment that is cloud-based: 
 ### Colab NoteBook
  * This is an example of how to use [colab] (https://github.com/asiamahy2g/py-devops/blob/main/getting_started_python.ipynb)
