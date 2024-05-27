@@ -31,4 +31,6 @@ Build out python project scaffold:
 
 
 ## Microservices
-##Containerized continuous delivery
+##Containerized continuous 
+
+docker run -p 127.0.0.1:8080:8080 c36015fb118c
