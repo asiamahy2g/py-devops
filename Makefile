@@ -1,6 +1,7 @@
 install:
-	pip install --upgrade pip &&\
-		pip install -r requirements.txt
+	pip install --upgrade pip && \
+	pip install -r requirements.txt
+
 lint:
 	pylint --disable=R,C *.py devopslib
 
@@ -9,13 +10,14 @@ test:
 
 format:
 	black *.py devopslib/*.py
+
 post-install:
 	python -m textblob.download_corpora
-deploy: 
-	#deploy
+
+deploy:
 	aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 540738452774.dkr.ecr.us-east-1.amazonaws.com
 	docker build -t devops-may-2024 .
 	docker tag devops-may-2024:latest 540738452774.dkr.ecr.us-east-1.amazonaws.com/devops-may-2024:latest
 	docker push 540738452774.dkr.ecr.us-east-1.amazonaws.com/devops-may-2024:latest
-	
+
 all: install post-install lint test format deploy
