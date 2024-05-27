@@ -27,6 +27,7 @@ Build out python project scaffold:
 ### AWS CLoud9
 
 
-## Command-Line tools
+## Command-Line tools and Step Functions<img width="1543" alt="Screenshot 2023-08-06 132338" src="https://github.com/asiamahy2g/py-devops/assets/99301863/4a0c990c-785a-42a1-adc0-ffb990ce803b">
+
 ## Microservices
 ##Containerized continuous delivery
